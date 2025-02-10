@@ -12,7 +12,7 @@ public class methodOverriding {
         }
     }
     public static void main(String[] args) {
-        Test2 t=new Test2();
+        Test t=new Test2();
         t.show();
     }
 }
