@@ -1,14 +1,30 @@
 package OOPs;
-public class encapsulation {
-    public static class employee {
-        private int empid;
-        
+public  class employee {
+    private int empid;
+    public  int getter(){
+        return this.empid;
     }
-    public static void main(String[] args) {
+    public  void setter(int empid){
+        this.empid=empid;
+    }
+   public static void main(String[] args) {
+        // encapsulation e=new encapsulation();
         employee e1=new employee();
+        e1.setter(28);
+        System.out.println(e1.getter());
         System.out.println(e1.empid); 
+        // N obj=new N();
     }
+    class N{
+        N(){
+            employee e2=new employee();
+            e2.setter(19);
+            System.out.println(e2.getter());
+        }
+    }
+    
 }
+
 
 
 

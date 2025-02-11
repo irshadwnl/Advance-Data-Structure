@@ -28,7 +28,6 @@ public class abstraction {
         pulsar.start();
         car ertiga =new car();
         ertiga.start();
-
         vehicle newCar=new car(); //refference create kr skte hai but object create nhi kr skte
         newCar.start();
 
