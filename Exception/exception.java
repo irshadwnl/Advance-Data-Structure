@@ -1,3 +1,4 @@
+package Exception;
 import java.util.*;
 public class exception {
     public static void main(String[] args) {
