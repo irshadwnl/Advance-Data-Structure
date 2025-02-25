@@ -11,7 +11,7 @@ public class freqOfCharacter {
         }
         for(int i=0;i<freq.length;i++){
             if(freq[i]!=0){
-                System.out.print((char)((char)i+'A')+" -> "+ freq[i]+" ");
+                System.out.print((char)((char)i+'A')+"->"+ freq[i]+" ");
             }
         }
     }
