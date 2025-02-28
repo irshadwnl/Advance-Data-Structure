@@ -13,7 +13,7 @@ public class integerTBinary {
     }
 }
 
-// Method 2:- :)
+// Method 2:-
 
 // package BitManipulation;
 
