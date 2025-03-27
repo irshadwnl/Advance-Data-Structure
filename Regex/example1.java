@@ -5,6 +5,7 @@ import java.util.regex.Matcher;
 public class example1 {
     public static void main(String[] args) {
         // String regex="a";
+        // String regex="Irshad";
         Pattern p=Pattern.compile("^b*");
         Matcher m=p.matcher("bbbbb");
         System.out.println(m.matches());
