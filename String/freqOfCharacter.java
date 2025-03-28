@@ -2,6 +2,7 @@ package String;
 import java.util.*;
 public class freqOfCharacter {
     public static void main(String[] args) {
+        // Input from user
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();
         String str=s.toLowerCase();
