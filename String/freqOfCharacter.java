@@ -6,6 +6,7 @@ public class freqOfCharacter {
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();
         String str=s.toLowerCase();
+        // intitializing array
         int freq[]=new int[26];
         for(char ch:str.toCharArray()){
             freq[ch-'a']++;
