@@ -11,8 +11,8 @@ public class freqOfCharacter {
         for(char ch:str.toCharArray()){
             freq[ch-'a']++;
         }
-        // looping
-        for(int i=0;i<freq.length;i++){
+
+        for(int i=0;i<freq.length;i++){  // looping
             if(freq[i]!=0){
                 System.out.print((char)((char)i+'A')+"->"+ freq[i]+" ");
             }
