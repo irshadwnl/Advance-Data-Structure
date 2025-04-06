@@ -2,6 +2,7 @@ package String;
 
 public class Anagram {
     public static void main(String[] args) {
+        // input
         String s1="wcrd";
         String s2="draw";
         int freq[]=new int[26];
