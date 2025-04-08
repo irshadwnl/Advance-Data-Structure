@@ -13,6 +13,7 @@ public class Anagram {
             freq[ch-'a']--;
         }
         boolean check=false;
+        // for each loop
         for(int i:freq){
             if(i!=0){
                 check=true;
