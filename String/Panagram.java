@@ -2,7 +2,7 @@ package String;
 
 public class Panagram {
     public static void main(String[] args) {
-        String str="the quick brown fox jumps over the lazy dog";
+        String str="the quick brown fox jumps over the lazy dog"; //String
         int freq[]=new int[26];
         for(char ch:str.toCharArray()){
             if(ch==' ') continue;
